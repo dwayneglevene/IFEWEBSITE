@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+body{
+  font-family: 'Roboto' sans-serif;
+}
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pic{
+  width:100%;
+}
+
+
+#studentswork{
+  text-align:center;
+  padding-bottom:30px;
+}
+
+.about{
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  padding: 10px 7%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  
+}
+.about:not(:last-child){
+  border-right: 1px solid black;
+}
+.about h2{
+  
+}
+.about p{
+  color: #6c757d;
+}
+
+h1{
+    text-align:center;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.bottom{
+  padding-top:50px;
+}
+.bottom p{
+  font-size: 0.9em;
+}
+.card-body{
+  hieght:15%;
+  text-align:center;
+/*   background-color:#992135; */
+    font-family: 'Playfair Display', serif;
+
+}
+
+.card-text{
+    hieght:15% !important;
+
+}
+.card-body>h3{
+  color:#992135; 
+}
+
+.btn-group{
+  width:100%;
+  background-color:#992135;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
+  width: 250px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+ 
+}
+
+.btn-group button{
+  font-weight: 700;
+  border:none;
+  font-size: 0.9em;
+}
+
+.btn {
+  color: white;
+}
+
+.brow{
+  text-align:center;
+}
+
+.navbar{
+  background-color: white !important;
+}
+
+section> p,h1{
+  color:#992135;
+  font-family: 'Playfair Display', serif;
+}
+footer p {
+  margin-bottom: .25rem;
+}
+
+body,section .container-fluid{
+/*   background-color:#aaaaaa; */
+  color:#992135;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+}
+
+#votingheader{
+  margin-top:50px;
+  margin-bottom:50px;
+    
+  }
+
+.btn-primary {
+  background-color:#992135;
+  border:none;
+}
+
+.btn-primary:hover{
+  background-color:#781929;
+}
+
+.vote-button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  width: 200px;
+  font-weight: 700 !important;
+}
+
+button.vote{
+  margin-top: 25px;
+  height: 50px;
+  width: 250px
+
+}
+
+.about-ife{
+  padding: 30px 5%;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.class-pic{
+  background-image: url("https://cdn.glitch.com/e6416c2c-5d6e-49e8-a3db-f7ad1ccae6ed%2FIFE2020.png?v=1596404614995") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+
+.navbar a.ife:not(:first-child){
+  color: #6c757d!;
+  margin-left: 50px;
+}
+
+.navbar-brand img{
+  width: 70px;
+  margin-left: 20px;
+}
+
+.navbar .navbar-nav a.vote{
+  color: #6c757d!;
+  margin-left: 50px;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logos img{
+  width: 120px;
+ 
+}
+
+p.card-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.back-to-top a{
+  color:  #6c757d;
+  text-decoration: underline;
+}
+
+@media(max-width: 588px){
+  .logos{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #ul-logo{
+    padding-top: 40px;
+  }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+/* .card-img-top{
+  width:100%;
+  height:100%;
+} 
+ */
+
+/* #QuickBookTeam{
+   */
+/*   transition-property:height; */
+/*   transition-duration:2s; */
+}
+
+/* #QuickBookTeam:hover{
+  img:"https://cdn.glitch.com/28f4b584-ab70-46be-a177-7f0f7c1bd9be%2FQC.PNG?v=1596516277291"
+  
+}
+
+.card-img-top{
+  width:100%;
+  height:100%;
+} 
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+ 
+/* .box-shadow { box-shadow: 0 .25rem .75rem rgba(
+   */
+/*   font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
